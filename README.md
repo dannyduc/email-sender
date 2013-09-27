@@ -25,5 +25,5 @@ To run individual class
 locale charmap
 
     uebuild1: UTF-8
-    uehudson1: ANSI_X3.4-1968
+    uehudson4: ANSI_X3.4-1968
     utbdajm1: UTF-8
