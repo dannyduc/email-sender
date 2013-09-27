@@ -23,8 +23,8 @@ public class MailSender {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo("dnguyen@ingenuity.com");
         message.setFrom("dnguyen@ingenuity.com");
-        message.setSubject("Ingenuity\u00ae iReport\u2122!");
-        message.setText("Welcome to Ingenuity\u00ae iReport\u2122! Use \u2018Contact Support\u2019 link for help");
+        message.setSubject("Ingenuity® iReport™!");
+        message.setText("Welcome to Ingenuity® iReport™! Use ‘Contact Support’ link for help");
         message.setSentDate(new Date());
 
         System.out.println("sending message: " + message);
