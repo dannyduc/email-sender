@@ -1,6 +1,12 @@
 # email-sender
 
-Sample maven project with project local repository
+Sample maven project with project local repository.  Testing out encoding format when sending email.
+
+* pom.xml
+    * '<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+* SendEmail2.java
+    * msg.setSubject(subject, "UTF-8");
+    * msg.setText(message, "UTF-8");
 
 To install libraries
 
