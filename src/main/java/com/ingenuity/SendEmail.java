@@ -13,6 +13,7 @@ public class SendEmail {
     public static void main(String[] args) throws  Exception {
         Properties props = System.getProperties();
         props.put("mail.smtp.host", "mailhost.ingenuity.com");
+        props.put("mail.smtp.timeout", "10000");    // timeout in 10 sec if no response from mail server
 
         Session session = Session.getDefaultInstance(props, null);
 
